@@ -19,7 +19,7 @@ https://www.youtube.com/channel/UCJmk5jYL5iiKyNsDDG8RZ9w
 
 
 
-# INSTALLATION INSTRUCTIONS
+# Installation instructions
 SmartBirdhouse Installation and setup V1. 22032019 Robert J. Heerekop
 Based on: "Rasberry PI Zero W v1.1" and "NOOBS_v3_0_0"
 Expierenced ones Skip Step1
