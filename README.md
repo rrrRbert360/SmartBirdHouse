@@ -1,13 +1,14 @@
-# SmartBirdHouse RaspberryPI; a self-publishing Youtube Bird House.
+# SmartBirdHouse RaspberryPI; a self-publishing YouTube Bird House.
 
 ## Description
-Welcome to the Smart DIY Birdbox located in The Hague.
+Welcome to this DIY Smart Birdbox project.
 This self-publishing birdbox operates autonomously and self-publishes short video clips to its own youtube channel.
-
 Clips which are not viewed or old are ranked low and automatically deleted by the Birdbox’s algorithm.
 If you want to prevent a clip to be deleted, like it or place your comment.
 
-OpenData (temp,humidity,day visits is free available via MQTT Server: test.mosquitto.org Topic: aterhzhwlz/#
+This implies that the birdhouse maintains its own YouTube channel and keeps it clean.
+It also sents OpenData (temp,humidity,day visits) so GUI-AI- and other enthusiasts can pick-up the data for further processing.
+The open data is free available via MQTT Server: test.mosquitto.org Topic: aterhzhwlz/#
 
 This is a DIY volunteer project  of IOTC360 to promote coding to kids and managers.
 IoT- and Smart devices are not rocket-science and can be made by everyone who is interested.
