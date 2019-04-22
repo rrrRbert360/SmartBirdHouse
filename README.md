@@ -225,8 +225,10 @@ rm tmpvid.h264
 ## Step11: Prepare your RaspberryPI to delete video clips
 When you've done the previous step, this one is easy because it is more or less the same procedure.
 Take the video-id from your own birdhouse youtube channel which you want to delete.
-Hit the following instruction in the command line and replace HERE_YOUR_VIDEO_ID with the video-id.
+Hit the following instruction in the command line and replace HERE_YOUR_VIDEO_ID with the video-id:
+```
 python delete_video.py --id=HERE_YOUR_VIDEO_ID --noauth_local_webserver  
+```
 Now you can see that the video clip has been deleted from the youtube channel.
 So now we have the situation that your Rasberry is allowed to upload and deleted files from its own youtube channel.
 Time to launch!
