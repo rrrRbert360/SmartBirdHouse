@@ -19,6 +19,33 @@ Robert Heerekop IOTC360 @rrrRbert360
 https://www.youtube.com/channel/UCJmk5jYL5iiKyNsDDG8RZ9w
 
 
+# Parts list
+See Wirering_plan file.
+
+## Minimum required parts
+- Raspberry Pi Zero WH (Zero W with Headers) $14,- https://www.adafruit.com/product/3708
+- Raspberry Pi power supply € 8,- https://nl.rs-online.com/web/p/ac-dc-adapters/1034301/
+- Camera Module for Raspberry Pi Zero - 5MP - 160° € 20,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-camera-en-accessoires/kw-2254
+- Temperature/Humidity Sensor DHT11 $5,- https://www.adafruit.com/product/386
+- Other like a DIY housing.
+
+## Tooling
+You need to have these available to get it working:
+- Mini HDMI Plug to Standard HDMI Jack Adapter $3,- https://www.adafruit.com/product/2819
+- Tiny OTG Adapter - USB Micro to USB $3,- https://www.adafruit.com/product/2910
+- Ethernet Hub & USB Hub met Micro USB OTG Connector €18,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-accessoires/ethernet-hub-usb-hub-met-micro-usb-otg-onnector
+- Other regular stuff like glue, tape, drill etc.
+
+## Optional additional components:
+3mm LED  €3,- https://www.kiwi-electronics.nl/3mm-led-clear-white-10-pack (note you only need 1)
+220 Ohm €1,- https://www.kiwi-electronics.nl/Weerstand-220-ohm-1-4-watt-5-procent-10-stuks (note you only need 1)
+
+## Optional improved power supply:
+- DC/DC Recom Switching Regulator €2,50 https://nl.rs-online.com/web/p/switching-regulators/1666675/
+- Any low voltage signal wire you have available; single pair different colors.
+
+
+
 # Installation instructions
 SmartBirdhouse Installation and setup V1. 22032019 Robert J. Heerekop
 Based on: "Rasberry PI Zero W v1.1" and "NOOBS_v3_0_0"
