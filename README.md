@@ -19,6 +19,8 @@ Robert Heerekop IOTC360 @rrrRbert360
 https://www.youtube.com/channel/UCJmk5jYL5iiKyNsDDG8RZ9w
 
 
+
+
 # Parts list
 See Wirering_plan file.
 
@@ -27,7 +29,7 @@ See Wirering_plan file.
 - Raspberry Pi power supply € 8,- https://nl.rs-online.com/web/p/ac-dc-adapters/1034301/
 - Camera Module for Raspberry Pi Zero - 5MP - 160° € 20,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-camera-en-accessoires/kw-2254
 - Temperature/Humidity Sensor DHT11 $5,- https://www.adafruit.com/product/386
-- Other like a DIY housing.
+- Other basic material like a DIY housing (e.g. PVC-pipe).
 
 ## Tooling
 You need to have these available to get it working:
@@ -43,6 +45,8 @@ You need to have these available to get it working:
 ## Optional improved power supply:
 - DC/DC Recom Switching Regulator €2,50 https://nl.rs-online.com/web/p/switching-regulators/1666675/
 - Any low voltage signal wire you have available; single pair different colors.
+
+
 
 
 
@@ -293,7 +297,7 @@ This uncommenting ensures that the python program is started by the launcher scr
 nano launcher.sh 
 ```
 
-## Step14: Keeps your RaspberryPI fresh!
+## Step14: Keep your RaspberryPI fresh!
 It is advised to auto-reboot the Rasberry every nightat 0:00.
 This Keeps your RaspberryPI fresh!
 Follow the instructions on https://www.raspberrypi.org/forums/viewtopic.php?t=126106
