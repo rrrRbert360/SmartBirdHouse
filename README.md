@@ -9,6 +9,7 @@ If you want to prevent a clip to be deleted, like it or place your comment.
 This implies that the birdhouse maintains its own YouTube channel and keeps it clean.
 It also sents OpenData (temp,humidity,opening-sensor-triggers and URL) by using the test Mosquitto server (best effort availability).
 This implies that all open data feed from all birdboxes is free available via MQTT Server: test.mosquitto.org Topic: aterhzhwlz/#
+
 A data-set of captured data(covering the hatching period) in the period 7March2020 19June2020 can be downloaded from: https://drive.google.com/file/d/1XzOmiy0gvcd5BFn0Fy6_xi6lOHcTYGTQ/view?usp=sharing
 Anyone who wants can pick-up the data-feed for further processing, building websites with the video clips is invited to do so.
 
