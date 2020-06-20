@@ -3,12 +3,14 @@
 ## Description
 Welcome to this DIY Smart Birdbox project.
 This self-publishing birdbox operates autonomously and self-publishes short video clips to its own youtube channel.
-Clips which are not viewed or old are ranked low and automatically deleted by the Birdbox’s algorithm.
+Clips which are not viewed or old are ranked low and automatically deleted by the Birdboxâ€™s algorithm.
 If you want to prevent a clip to be deleted, like it or place your comment.
 
 This implies that the birdhouse maintains its own YouTube channel and keeps it clean.
-It also sents OpenData (temp,humidity,day visits) so GUI-AI- and other enthusiasts can pick-up the data for further processing.
-The open data is free available via MQTT Server: test.mosquitto.org Topic: aterhzhwlz/#
+It also sents OpenData (temp,humidity,opening-sensor-triggers and URL) by using the test Mosquitto server (best effort availability).
+This implies that all open data feed from all birdboxes is free available via MQTT Server: test.mosquitto.org Topic: aterhzhwlz/#
+A data-set of captured data(covering the hatching period) in the period 7March2020 19June2020 can be downloaded from: https://drive.google.com/file/d/1XzOmiy0gvcd5BFn0Fy6_xi6lOHcTYGTQ/view?usp=sharing
+Anyone who wants can pick-up the data-feed for further processing, building websites with the video clips is invited to do so.
 
 This is a DIY volunteer project  of IOTC360 to promote coding to kids and managers.
 IoT- and Smart devices are not rocket-science and can be made by everyone who is interested.
@@ -26,8 +28,8 @@ See Wirering_plan file.
 
 ## Minimum required parts
 - Raspberry Pi Zero WH (Zero W with Headers) $14,- https://www.adafruit.com/product/3708
-- Raspberry Pi power supply € 8,- https://nl.rs-online.com/web/p/ac-dc-adapters/1034301/
-- Camera Module for Raspberry Pi Zero - 5MP - 160° € 20,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-camera-en-accessoires/kw-2254
+- Raspberry Pi power supply â‚¬ 8,- https://nl.rs-online.com/web/p/ac-dc-adapters/1034301/
+- Camera Module for Raspberry Pi Zero - 5MP - 160Â° â‚¬ 20,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-camera-en-accessoires/kw-2254
 - Temperature/Humidity Sensor DHT11 $5,- https://www.adafruit.com/product/386
 - Other basic material like a DIY housing (e.g. PVC-pipe).
 
@@ -35,15 +37,15 @@ See Wirering_plan file.
 You need to have these available to get it working:
 - Mini HDMI Plug to Standard HDMI Jack Adapter $3,- https://www.adafruit.com/product/2819
 - Tiny OTG Adapter - USB Micro to USB $3,- https://www.adafruit.com/product/2910
-- Ethernet Hub & USB Hub met Micro USB OTG Connector €18,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-accessoires/ethernet-hub-usb-hub-met-micro-usb-otg-onnector
+- Ethernet Hub & USB Hub met Micro USB OTG Connector â‚¬18,- https://www.kiwi-electronics.nl/raspberry-pi/raspberry-pi-accessoires/ethernet-hub-usb-hub-met-micro-usb-otg-onnector
 - Other regular stuff like glue, tape, drill etc.
 
 ## Optional additional components:
-3mm LED  €3,- https://www.kiwi-electronics.nl/3mm-led-clear-white-10-pack (note you only need 1)
-220 Ohm €1,- https://www.kiwi-electronics.nl/Weerstand-220-ohm-1-4-watt-5-procent-10-stuks (note you only need 1)
+3mm LED  â‚¬3,- https://www.kiwi-electronics.nl/3mm-led-clear-white-10-pack (note you only need 1)
+220 Ohm â‚¬1,- https://www.kiwi-electronics.nl/Weerstand-220-ohm-1-4-watt-5-procent-10-stuks (note you only need 1)
 
 ## Optional improved power supply:
-- DC/DC Recom Switching Regulator €2,50 https://nl.rs-online.com/web/p/switching-regulators/1666675/
+- DC/DC Recom Switching Regulator â‚¬2,50 https://nl.rs-online.com/web/p/switching-regulators/1666675/
 - Any low voltage signal wire you have available; single pair different colors.
 
 
@@ -68,7 +70,7 @@ Continue by:
 - Yes, take some time to install the offered updates and after the restart continue:
 
 Login the the RasberryPI and:
-- Hit the Bluetooth icon (in the top menu bar)and “Turn Off Bluetooth”
+- Hit the Bluetooth icon (in the top menu bar)and â€œTurn Off Bluetoothâ€
 - Hit Raspberry symbol and goto Preferences> RaspberryPI Configuration> Interfaces> 
 - enable: Camera, SSH, VNC, Remote GPIO
 - Confirm the system reboot
@@ -134,8 +136,8 @@ ChannelIdentifier = 'Replace this with your own Youtube Channel-ID '   # Your Yo
 
 
 ## Step5: PREPARE YOUR COMPUTER with TOOLING
-You control can control the graphical user interface of your RasberryPI by installing the 'VNC® Viewer' on your computer.
-The same VNC® Viewer can be used to transfer files to your RasberryPI.
+You control can control the graphical user interface of your RasberryPI by installing the 'VNCÂ® Viewer' on your computer.
+The same VNCÂ® Viewer can be used to transfer files to your RasberryPI.
 Please notice that if your computer and RaspberryPI are in the same LAN you don't need to make a VNC online account.
 If you want to place the birdhouse at your grandmothers forest and remotely access it, please also create an account.
 It is suggested to run this birdhouse in first time on your local LAN otherwise you keep traveling to your grandmother.
@@ -157,7 +159,7 @@ ChannelIdentifier = '...'                                              # Your Yo
 
 ## Step7: INSTALL THE BIRDHOUSE SOFTWARE
 If you enter 'ifconfig' in the command line of your RasberryPI you can see thr IP-address.
-Start on your computer the VNC® Viewer and enter the IP address of your RasberryPI in the offered box where you need to enter a server IP-address.
+Start on your computer the VNCÂ® Viewer and enter the IP address of your RasberryPI in the offered box where you need to enter a server IP-address.
 If the connection is ok, now the graphical user interface of your Raspberry PI appears.
 Right-click the top bar of the VNC-viewer running on your PC and select "Transfer files"
 Please copy all the birdhouse files from your computer including the adapted "birdhouseconfig.py" and downloaded "client_secrets.json" to the Rasberry PI.
